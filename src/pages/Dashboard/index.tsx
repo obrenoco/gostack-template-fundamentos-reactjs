@@ -35,9 +35,10 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     async function loadTransactions(): Promise<void> {
-      // TODO
+      // const response = await api.get('/transactions');
+      // setTransactions(response.data.transaction);
+      // setBalance(response.data.balance);
     }
-
     loadTransactions();
   }, []);
 
